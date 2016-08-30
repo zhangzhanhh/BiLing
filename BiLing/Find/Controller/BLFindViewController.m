@@ -10,13 +10,23 @@
 
 @interface BLFindViewController ()
 
+
+
 @end
 
 @implementation BLFindViewController
+//全部类目
+- (IBAction)allTypeClick:(UIButton *)sender {
+}
+//默认筛选
+- (IBAction)defaultFilterClick:(UIButton *)sender {
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"发现";
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

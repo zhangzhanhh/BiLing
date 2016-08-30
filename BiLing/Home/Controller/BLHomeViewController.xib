@@ -305,7 +305,7 @@
                 <constraint firstItem="lS9-oF-bFJ" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="wEB-cx-9Wn"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="306" y="310"/>
+            <point key="canvasLocation" x="561" y="194"/>
         </view>
         <customObject id="AnU-eh-UKv" customClass="BLScrollNotifiView">
             <connections>
