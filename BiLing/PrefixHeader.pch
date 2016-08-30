@@ -1,0 +1,51 @@
+//
+//  PrefixHeader.pch
+//  BiLing
+//
+//  Created by 章展赫 on 16/8/29.
+//  Copyright © 2016年 MrZ. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+HBExtension.h"
+
+#define kPaddingColor      BLColor(220,220,220)   //分割线
+#define kMainTextColor BLColor(40,40,40)
+#define kDescColor BLColor(121,121,121)
+#define kMainBlueColor BLColor(27, 166, 243)
+
+#define FONT(a)  [UIFont systemFontOfSize:a]
+#define BFONT(a) [UIFont boldSystemFontOfSize:a]
+
+// 3.自定义Log
+#ifdef DEBUG
+#define BLLog(...) NSLog(__VA_ARGS__)
+#else
+#define BLLog(...)
+#endif
+
+//  Json/NSString   Encode and Decode
+#define BLJsonEncode(...)  [NSJSONSerialization dataWithJSONObject:__VA_ARGS__ options:NSJSONWritingPrettyPrinted error:nil]
+#define BLJsonDecode(...)  [NSJSONSerialization JSONObjectWithData:__VA_ARGS__ options:NSJSONReadingMutableContainers error:nil]
+#define BLStringUTF8Encode(...)  [__VA_ARGS__ dataUsingEncoding:NSUTF8StringEncoding]
+#define BLStringUTF8Decode(...)  [[NSString alloc] initWithData:__VA_ARGS__ encoding:NSUTF8StringEncoding]
+#define BLEncode(...) [NSKeyedArchiver archivedDataWithRootObject:__VA_ARGS__]
+#define BLDecode(...) [NSKeyedUnarchiver unarchiveObjectWithFile:__VA_ARGS__]
+
+#define kBgColor BLColor(241, 241, 241)
+#define BLColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define BLColorRGBA(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
+// 随机色
+#define BLRandomColor BLColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+// 屏幕宽高
+#define BLScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define BLScreenHeight [[UIScreen mainScreen] bounds].size.height
+// 系统版本是否高于
+#define IOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0 ? YES : NO)
+#define IOS8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0 ? YES : NO)
+// 通知
+#define BLNotificationCenter [NSNotificationCenter defaultCenter]
+
+#endif /* PrefixHeader_pch */
