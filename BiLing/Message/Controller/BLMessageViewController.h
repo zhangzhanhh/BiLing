@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BLMessageViewController : UIViewController
+@interface BLMessageViewController : BLBaseViewController
 
 @end

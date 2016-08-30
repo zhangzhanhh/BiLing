@@ -11,6 +11,16 @@
 		3E0E69381D758B8D00D911F4 /* BLGeneralCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E0E69361D758B8D00D911F4 /* BLGeneralCell.xib */; };
 		3E0E693C1D758C0200D911F4 /* BLHurryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E693A1D758C0200D911F4 /* BLHurryCell.m */; };
 		3E0E693D1D758C0200D911F4 /* BLHurryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E0E693B1D758C0200D911F4 /* BLHurryCell.xib */; };
+		BA6DD36E1D7574EE00420B13 /* BLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6DD36A1D7574EE00420B13 /* BLLoginViewController.m */; };
+		BA6DD36F1D7574EE00420B13 /* BLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6DD36B1D7574EE00420B13 /* BLLoginViewController.xib */; };
+		BA6DD3721D75753900420B13 /* BLLoginBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6DD3711D75753900420B13 /* BLLoginBtn.m */; };
+		BA6DD3761D75784B00420B13 /* BLBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6DD3741D75784B00420B13 /* BLBalanceViewController.m */; };
+		BA6DD3771D75784B00420B13 /* BLBalanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6DD3751D75784B00420B13 /* BLBalanceViewController.xib */; };
+		BA6DD37A1D7579B300420B13 /* BLBalanceTabelHearderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6DD3791D7579B300420B13 /* BLBalanceTabelHearderView.m */; };
+		BA6DD37C1D7579CC00420B13 /* BLBalanceTabelHearderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6DD37B1D7579CC00420B13 /* BLBalanceTabelHearderView.xib */; };
+		BA6DD3801D757AF500420B13 /* BLBalanceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6DD37E1D757AF500420B13 /* BLBalanceTableViewCell.m */; };
+		BA6DD3811D757AF500420B13 /* BLBalanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6DD37F1D757AF500420B13 /* BLBalanceTableViewCell.xib */; };
+		BA6DD3841D757C2D00420B13 /* BLBanlanceCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6DD3831D757C2D00420B13 /* BLBanlanceCellModel.m */; };
 		BA8A53C81D742AFD00F770BE /* UIView+HBExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A53C71D742AFD00F770BE /* UIView+HBExtension.m */; };
 		BA8A53CB1D74318200F770BE /* BLScrollNotifiView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A53CA1D74318200F770BE /* BLScrollNotifiView.m */; };
 		BA8A53CE1D7438B200F770BE /* BBCyclingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A53CD1D7438B200F770BE /* BBCyclingLabel.m */; };
@@ -19,6 +29,14 @@
 		BA8A53D71D75135100F770BE /* BLTableHearderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A53D61D75135100F770BE /* BLTableHearderView.m */; };
 		BA8A53D91D75136300F770BE /* BLTableHearderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8A53D81D75136300F770BE /* BLTableHearderView.xib */; };
 		BA8A53DC1D751C5C00F770BE /* BLOrderButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A53DB1D751C5C00F770BE /* BLOrderButton.m */; };
+		BA8A53E01D7560BD00F770BE /* BLMyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A53DE1D7560BD00F770BE /* BLMyInfoViewController.m */; };
+		BA8A53E11D7560BD00F770BE /* BLMyInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8A53DF1D7560BD00F770BE /* BLMyInfoViewController.xib */; };
+		BA8A53E51D75612900F770BE /* BLMyInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A53E31D75612900F770BE /* BLMyInfoTableViewCell.m */; };
+		BA8A53E61D75612900F770BE /* BLMyInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8A53E41D75612900F770BE /* BLMyInfoTableViewCell.xib */; };
+		BA8A53EA1D75695B00F770BE /* BLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A53E91D75695B00F770BE /* BLBaseViewController.m */; };
+		BA8A53ED1D7569C800F770BE /* BLMyInfoTabelHeardView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A53EC1D7569C800F770BE /* BLMyInfoTabelHeardView.m */; };
+		BA8A53EF1D7569E400F770BE /* BLMyInfoTabelHeardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA8A53EE1D7569E400F770BE /* BLMyInfoTabelHeardView.xib */; };
+		BA8A53F21D756C4A00F770BE /* BLInfoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8A53F11D756C4A00F770BE /* BLInfoButton.m */; };
 		BAB40AD11D73CED4008DD2D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB40AD01D73CED4008DD2D5 /* main.m */; };
 		BAB40AD41D73CED4008DD2D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB40AD31D73CED4008DD2D5 /* AppDelegate.m */; };
 		BAB40ADC1D73CED5008DD2D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB40ADB1D73CED5008DD2D5 /* Assets.xcassets */; };
@@ -75,6 +93,22 @@
 		3E0E693A1D758C0200D911F4 /* BLHurryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLHurryCell.m; sourceTree = "<group>"; };
 		3E0E693B1D758C0200D911F4 /* BLHurryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLHurryCell.xib; sourceTree = "<group>"; };
 		7295F79C25E1F5FBFCF3E569 /* libPods-BiLing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BiLing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6DD3691D7574EE00420B13 /* BLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLLoginViewController.h; sourceTree = "<group>"; };
+		BA6DD36A1D7574EE00420B13 /* BLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLLoginViewController.m; sourceTree = "<group>"; };
+		BA6DD36B1D7574EE00420B13 /* BLLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLLoginViewController.xib; sourceTree = "<group>"; };
+		BA6DD3701D75753900420B13 /* BLLoginBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLLoginBtn.h; sourceTree = "<group>"; };
+		BA6DD3711D75753900420B13 /* BLLoginBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLLoginBtn.m; sourceTree = "<group>"; };
+		BA6DD3731D75784B00420B13 /* BLBalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBalanceViewController.h; sourceTree = "<group>"; };
+		BA6DD3741D75784B00420B13 /* BLBalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBalanceViewController.m; sourceTree = "<group>"; };
+		BA6DD3751D75784B00420B13 /* BLBalanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLBalanceViewController.xib; sourceTree = "<group>"; };
+		BA6DD3781D7579B300420B13 /* BLBalanceTabelHearderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBalanceTabelHearderView.h; sourceTree = "<group>"; };
+		BA6DD3791D7579B300420B13 /* BLBalanceTabelHearderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBalanceTabelHearderView.m; sourceTree = "<group>"; };
+		BA6DD37B1D7579CC00420B13 /* BLBalanceTabelHearderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLBalanceTabelHearderView.xib; sourceTree = "<group>"; };
+		BA6DD37D1D757AF500420B13 /* BLBalanceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBalanceTableViewCell.h; sourceTree = "<group>"; };
+		BA6DD37E1D757AF500420B13 /* BLBalanceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBalanceTableViewCell.m; sourceTree = "<group>"; };
+		BA6DD37F1D757AF500420B13 /* BLBalanceTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLBalanceTableViewCell.xib; sourceTree = "<group>"; };
+		BA6DD3821D757C2D00420B13 /* BLBanlanceCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBanlanceCellModel.h; sourceTree = "<group>"; };
+		BA6DD3831D757C2D00420B13 /* BLBanlanceCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBanlanceCellModel.m; sourceTree = "<group>"; };
 		BA8A53C61D742AFD00F770BE /* UIView+HBExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HBExtension.h"; sourceTree = "<group>"; };
 		BA8A53C71D742AFD00F770BE /* UIView+HBExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HBExtension.m"; sourceTree = "<group>"; };
 		BA8A53C91D74318200F770BE /* BLScrollNotifiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLScrollNotifiView.h; sourceTree = "<group>"; };
@@ -90,6 +124,19 @@
 		BA8A53D81D75136300F770BE /* BLTableHearderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLTableHearderView.xib; sourceTree = "<group>"; };
 		BA8A53DA1D751C5C00F770BE /* BLOrderButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLOrderButton.h; sourceTree = "<group>"; };
 		BA8A53DB1D751C5C00F770BE /* BLOrderButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLOrderButton.m; sourceTree = "<group>"; };
+		BA8A53DD1D7560BD00F770BE /* BLMyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMyInfoViewController.h; sourceTree = "<group>"; };
+		BA8A53DE1D7560BD00F770BE /* BLMyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMyInfoViewController.m; sourceTree = "<group>"; };
+		BA8A53DF1D7560BD00F770BE /* BLMyInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLMyInfoViewController.xib; sourceTree = "<group>"; };
+		BA8A53E21D75612900F770BE /* BLMyInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMyInfoTableViewCell.h; sourceTree = "<group>"; };
+		BA8A53E31D75612900F770BE /* BLMyInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMyInfoTableViewCell.m; sourceTree = "<group>"; };
+		BA8A53E41D75612900F770BE /* BLMyInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLMyInfoTableViewCell.xib; sourceTree = "<group>"; };
+		BA8A53E81D75695B00F770BE /* BLBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLBaseViewController.h; sourceTree = "<group>"; };
+		BA8A53E91D75695B00F770BE /* BLBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLBaseViewController.m; sourceTree = "<group>"; };
+		BA8A53EB1D7569C800F770BE /* BLMyInfoTabelHeardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMyInfoTabelHeardView.h; sourceTree = "<group>"; };
+		BA8A53EC1D7569C800F770BE /* BLMyInfoTabelHeardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMyInfoTabelHeardView.m; sourceTree = "<group>"; };
+		BA8A53EE1D7569E400F770BE /* BLMyInfoTabelHeardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLMyInfoTabelHeardView.xib; sourceTree = "<group>"; };
+		BA8A53F01D756C4A00F770BE /* BLInfoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLInfoButton.h; sourceTree = "<group>"; };
+		BA8A53F11D756C4A00F770BE /* BLInfoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLInfoButton.m; sourceTree = "<group>"; };
 		BAB40ACC1D73CED3008DD2D5 /* BiLing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiLing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB40AD01D73CED4008DD2D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BAB40AD21D73CED4008DD2D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -182,6 +229,51 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BA6DD3671D7574EE00420B13 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BA6DD3681D7574EE00420B13 /* Controller */,
+				BA6DD36C1D7574EE00420B13 /* Model */,
+				BA6DD36D1D7574EE00420B13 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BA6DD3681D7574EE00420B13 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA6DD3691D7574EE00420B13 /* BLLoginViewController.h */,
+				BA6DD36A1D7574EE00420B13 /* BLLoginViewController.m */,
+				BA6DD36B1D7574EE00420B13 /* BLLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BA6DD36C1D7574EE00420B13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA6DD36D1D7574EE00420B13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA6DD3701D75753900420B13 /* BLLoginBtn.h */,
+				BA6DD3711D75753900420B13 /* BLLoginBtn.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA8A53E71D75693B00F770BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA8A53E81D75695B00F770BE /* BLBaseViewController.h */,
+				BA8A53E91D75695B00F770BE /* BLBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		BAB40AC31D73CED3008DD2D5 = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +304,7 @@
 				BAB40C631D73E0B1008DD2D5 /* Main */,
 				BAB40ADB1D73CED5008DD2D5 /* Assets.xcassets */,
 				BAB40AE01D73CED5008DD2D5 /* Info.plist */,
+				BA6DD3671D7574EE00420B13 /* Login */,
 				BAB40B161D73D910008DD2D5 /* Home */,
 				BAB40B151D73D910008DD2D5 /* Find */,
 				BAB40B171D73D910008DD2D5 /* Message */,
@@ -354,6 +447,12 @@
 				BAB40B391D73DA01008DD2D5 /* BLMyViewController.h */,
 				BAB40B3A1D73DA01008DD2D5 /* BLMyViewController.m */,
 				BAB40B3B1D73DA01008DD2D5 /* BLMyViewController.xib */,
+				BA8A53DD1D7560BD00F770BE /* BLMyInfoViewController.h */,
+				BA8A53DE1D7560BD00F770BE /* BLMyInfoViewController.m */,
+				BA8A53DF1D7560BD00F770BE /* BLMyInfoViewController.xib */,
+				BA6DD3731D75784B00420B13 /* BLBalanceViewController.h */,
+				BA6DD3741D75784B00420B13 /* BLBalanceViewController.m */,
+				BA6DD3751D75784B00420B13 /* BLBalanceViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -361,6 +460,8 @@
 		BAB40B271D73D992008DD2D5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BA6DD3821D757C2D00420B13 /* BLBanlanceCellModel.h */,
+				BA6DD3831D757C2D00420B13 /* BLBanlanceCellModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -373,6 +474,20 @@
 				BA8A53D81D75136300F770BE /* BLTableHearderView.xib */,
 				BA8A53DA1D751C5C00F770BE /* BLOrderButton.h */,
 				BA8A53DB1D751C5C00F770BE /* BLOrderButton.m */,
+				BA8A53E21D75612900F770BE /* BLMyInfoTableViewCell.h */,
+				BA8A53E31D75612900F770BE /* BLMyInfoTableViewCell.m */,
+				BA8A53E41D75612900F770BE /* BLMyInfoTableViewCell.xib */,
+				BA8A53EB1D7569C800F770BE /* BLMyInfoTabelHeardView.h */,
+				BA8A53EC1D7569C800F770BE /* BLMyInfoTabelHeardView.m */,
+				BA8A53EE1D7569E400F770BE /* BLMyInfoTabelHeardView.xib */,
+				BA8A53F01D756C4A00F770BE /* BLInfoButton.h */,
+				BA8A53F11D756C4A00F770BE /* BLInfoButton.m */,
+				BA6DD3781D7579B300420B13 /* BLBalanceTabelHearderView.h */,
+				BA6DD3791D7579B300420B13 /* BLBalanceTabelHearderView.m */,
+				BA6DD37B1D7579CC00420B13 /* BLBalanceTabelHearderView.xib */,
+				BA6DD37D1D757AF500420B13 /* BLBalanceTableViewCell.h */,
+				BA6DD37E1D757AF500420B13 /* BLBalanceTableViewCell.m */,
+				BA6DD37F1D757AF500420B13 /* BLBalanceTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -434,6 +549,7 @@
 		BAB40C631D73E0B1008DD2D5 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				BA8A53E71D75693B00F770BE /* Controller */,
 				BAB40C641D73E0CD008DD2D5 /* BLPlusButton.h */,
 				BAB40C651D73E0CD008DD2D5 /* BLPlusButton.m */,
 				BAB40C731D73FAAA008DD2D5 /* BLUserManager.h */,
@@ -553,6 +669,7 @@
 					BAB40ACB1D73CED3008DD2D5 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 7A5EEVM9R5;
+						DevelopmentTeam = 9RXPKMWHS2;
 					};
 					BAB40AE41D73CED5008DD2D5 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -589,15 +706,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6DD36F1D7574EE00420B13 /* BLLoginViewController.xib in Resources */,
 				BA8A53D91D75136300F770BE /* BLTableHearderView.xib in Resources */,
 				BAB40C7E1D740892008DD2D5 /* BLPlusViewController.xib in Resources */,
+				BA8A53E11D7560BD00F770BE /* BLMyInfoViewController.xib in Resources */,
 				BAB40B251D73D97F008DD2D5 /* BLHomeViewController.xib in Resources */,
 				BAB40B3D1D73DA01008DD2D5 /* BLMyViewController.xib in Resources */,
 				BAB40ADC1D73CED5008DD2D5 /* Assets.xcassets in Resources */,
 				3E0E693D1D758C0200D911F4 /* BLHurryCell.xib in Resources */,
 				BAB40B381D73D9E0008DD2D5 /* BLMessageViewController.xib in Resources */,
 				3E0E69381D758B8D00D911F4 /* BLGeneralCell.xib in Resources */,
+				BA6DD3771D75784B00420B13 /* BLBalanceViewController.xib in Resources */,
+				BA6DD3811D757AF500420B13 /* BLBalanceTableViewCell.xib in Resources */,
+				BA8A53E61D75612900F770BE /* BLMyInfoTableViewCell.xib in Resources */,
+				BAB40B381D73D9E0008DD2D5 /* BLMessageViewController.xib in Resources */,
+				BA8A53EF1D7569E400F770BE /* BLMyInfoTabelHeardView.xib in Resources */,
 				BAB40B331D73D9CF008DD2D5 /* BLFindViewController.xib in Resources */,
+				BA6DD37C1D7579CC00420B13 /* BLBalanceTabelHearderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,22 +798,33 @@
 				3E0E693C1D758C0200D911F4 /* BLHurryCell.m in Sources */,
 				BAB40B141D73D694008DD2D5 /* CYLTabBarControllerConfig.m in Sources */,
 				BAB40C751D73FAAA008DD2D5 /* BLUserManager.m in Sources */,
+				BA8A53ED1D7569C800F770BE /* BLMyInfoTabelHeardView.m in Sources */,
+				BA6DD36E1D7574EE00420B13 /* BLLoginViewController.m in Sources */,
+				BA6DD3721D75753900420B13 /* BLLoginBtn.m in Sources */,
 				BAB40B321D73D9CF008DD2D5 /* BLFindViewController.m in Sources */,
 				BAB40AD41D73CED4008DD2D5 /* AppDelegate.m in Sources */,
 				BA8A53CE1D7438B200F770BE /* BBCyclingLabel.m in Sources */,
+				BA8A53E51D75612900F770BE /* BLMyInfoTableViewCell.m in Sources */,
 				BAB40B101D73D57B008DD2D5 /* CYLTabBarController.m in Sources */,
 				BAB40C791D73FBFD008DD2D5 /* HHHttpTool.m in Sources */,
+				BA6DD3841D757C2D00420B13 /* BLBanlanceCellModel.m in Sources */,
+				BA6DD3761D75784B00420B13 /* BLBalanceViewController.m in Sources */,
 				BAB40B3C1D73DA01008DD2D5 /* BLMyViewController.m in Sources */,
+				BA8A53EA1D75695B00F770BE /* BLBaseViewController.m in Sources */,
+				BA8A53F21D756C4A00F770BE /* BLInfoButton.m in Sources */,
 				BA8A53D11D743D4700F770BE /* UISearchBar+HH.m in Sources */,
 				BAB40B0E1D73D57B008DD2D5 /* CYLPlusButton.m in Sources */,
 				BAB40C6F1D73E7B1008DD2D5 /* PTextField.m in Sources */,
 				BAB40B0F1D73D57B008DD2D5 /* CYLTabBar.m in Sources */,
+				BA8A53E01D7560BD00F770BE /* BLMyInfoViewController.m in Sources */,
 				BAB40B371D73D9E0008DD2D5 /* BLMessageViewController.m in Sources */,
 				BAB40C721D73E8C6008DD2D5 /* UIBarButtonItem+MJ.m in Sources */,
 				BAB40B111D73D57B008DD2D5 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
 				BAB40AD11D73CED4008DD2D5 /* main.m in Sources */,
+				BA6DD37A1D7579B300420B13 /* BLBalanceTabelHearderView.m in Sources */,
 				BA8A53CB1D74318200F770BE /* BLScrollNotifiView.m in Sources */,
 				3E0E69371D758B8D00D911F4 /* BLGeneralCell.m in Sources */,
+				BA6DD3801D757AF500420B13 /* BLBalanceTableViewCell.m in Sources */,
 				BA8A53C81D742AFD00F770BE /* UIView+HBExtension.m in Sources */,
 				BAB40B241D73D97F008DD2D5 /* BLHomeViewController.m in Sources */,
 				BAB40C831D7414D2008DD2D5 /* BLFunctionButton.m in Sources */,

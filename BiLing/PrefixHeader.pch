@@ -10,6 +10,7 @@
 #define PrefixHeader_pch
 
 #import "UIView+HBExtension.h"
+#import "BLBaseViewController.h"
 
 #define kPaddingColor      BLColor(220,220,220)   //分割线
 #define kMainTextColor BLColor(40,40,40)
