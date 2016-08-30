@@ -7,6 +7,11 @@
 //
 
 #import "BLTableHearderView.h"
+#import "BLOrderButton.h"
+
+@interface BLTableHearderView ()
+
+@end
 
 @implementation BLTableHearderView
 
@@ -18,5 +23,30 @@
     self.backgroundColor = kBgColor;
 }
 
+- (IBAction)userIconBtnClick:(UIButton *)sender {
+    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtnWithType:)]) {
+        [self.delegate tableHearderView:self didClickBtnWithType:BLTableHearderViewUserIconBtnClick];
+    }
+}
+- (IBAction)loginBtnClick:(UIButton *)sender {
+    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtnWithType:)]) {
+        [self.delegate tableHearderView:self didClickBtnWithType:BLTableHearderViewLoginBtnClick];
+    }
+}
+- (IBAction)conutBtnClick:(UIButton *)sender {
+    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtnWithType:)]) {
+        [self.delegate tableHearderView:self didClickBtnWithType:BLTableHearderViewConutBtnClick];
+    }
+}
+- (IBAction)redBagBtnClick:(UIButton *)sender {
+    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtnWithType:)]) {
+        [self.delegate tableHearderView:self didClickBtnWithType:BLTableHearderViewRedBagBtnClick];
+    }
+}
+- (IBAction)orderBtnClick:(BLOrderButton *)sender {
+    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtnWithType:)]) {
+        [self.delegate tableHearderView:self didClickBtnWithType:BLTableHearderViewOtherBtnClick];
+    }
+}
 
 @end

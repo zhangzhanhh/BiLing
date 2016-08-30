@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BLHomeViewController : UIViewController
+@interface BLHomeViewController : BLBaseViewController
 
 @end

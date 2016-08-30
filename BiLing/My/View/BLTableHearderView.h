@@ -7,7 +7,24 @@
 //
 
 #import <UIKit/UIKit.h>
+@class BLTableHearderView;
+
+typedef enum : NSUInteger {
+    BLTableHearderViewUserIconBtnClick, //用户头像
+    BLTableHearderViewLoginBtnClick,    //登陆按钮
+    BLTableHearderViewConutBtnClick,    //余额
+    BLTableHearderViewRedBagBtnClick,   //红包
+    BLTableHearderViewOtherBtnClick,    //其他
+} BLTableHearderViewBtnClickType;
+
+@protocol BLTableHearderViewDelegate <NSObject>
+
+@optional
+- (void)tableHearderView:(BLTableHearderView *)tableHearderView didClickBtnWithType:(BLTableHearderViewBtnClickType)type;
+
+@end
 
 @interface BLTableHearderView : UIView
+@property (weak, nonatomic) id<BLTableHearderViewDelegate> delegate;
 + (instancetype)loadViewFromNib;
 @end

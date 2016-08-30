@@ -9,10 +9,14 @@
 #import "BLMyViewController.h"
 #import "BLUserManager.h"
 #import "BLTableHearderView.h"
+#import "BLMyInfoViewController.h"
+#import "BLBalanceViewController.h"
+#import "BLLoginViewController.h"
 
-@interface BLMyViewController ()
+@interface BLMyViewController ()<BLTableHearderViewDelegate>
 @property (nonatomic, strong) NSArray<NSArray *> *settingTitles;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+@property (weak, nonatomic) BLTableHearderView *hearderView;
 @end
 
 @implementation BLMyViewController
@@ -42,8 +46,9 @@
 }
 
 - (void)setUpTableView{
-    
-    self.tableView.tableHeaderView = [BLTableHearderView loadViewFromNib];
+    self.hearderView = [BLTableHearderView loadViewFromNib];
+    self.hearderView.delegate = self;
+    self.tableView.tableHeaderView = self.hearderView;
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
@@ -86,6 +91,43 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 55;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section{
+    return 5;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
+    return 5;
+}
+
+#pragma mark - BLTableHearderViewDelegate
+- (void)tableHearderView:(BLTableHearderView *)tableHearderView didClickBtnWithType:(BLTableHearderViewBtnClickType)type{
+    UIViewController *VC = nil;
+    switch (type) {
+        case BLTableHearderViewUserIconBtnClick:{
+            VC = [[BLMyInfoViewController alloc] init];
+            break;
+        }
+        case BLTableHearderViewLoginBtnClick:{
+            VC = [[BLLoginViewController alloc] init];
+            break;
+        }
+        case BLTableHearderViewConutBtnClick:{
+            VC = [[BLBalanceViewController alloc] init];
+            break;
+        }
+        case BLTableHearderViewRedBagBtnClick:{
+            
+            break;
+        }
+        case BLTableHearderViewOtherBtnClick:{
+            
+            break;
+        }
+            
+        default:
+            break;
+    }
+    [self.navigationController pushViewController:VC animated:YES];
 }
 
 
