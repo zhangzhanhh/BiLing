@@ -669,7 +669,6 @@
 					BAB40ACB1D73CED3008DD2D5 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 7A5EEVM9R5;
-						DevelopmentTeam = 9RXPKMWHS2;
 					};
 					BAB40AE41D73CED5008DD2D5 = {
 						CreatedOnToolsVersion = 7.3.1;
