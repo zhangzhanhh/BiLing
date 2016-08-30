@@ -1,5 +1,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '7.0'
 
-pod 'AFNetworking'
-pod 'SDWebImage'
+target ‘BiLing’ do
+	pod 'AFNetworking'
+	pod 'SDWebImage'
+end
