@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E0E69371D758B8D00D911F4 /* BLGeneralCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E69351D758B8D00D911F4 /* BLGeneralCell.m */; };
-		3E0E69381D758B8D00D911F4 /* BLGeneralCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E0E69361D758B8D00D911F4 /* BLGeneralCell.xib */; };
-		3E0E693C1D758C0200D911F4 /* BLHurryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0E693A1D758C0200D911F4 /* BLHurryCell.m */; };
-		3E0E693D1D758C0200D911F4 /* BLHurryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E0E693B1D758C0200D911F4 /* BLHurryCell.xib */; };
+		3ED0997C1D76BD5100DB8954 /* BLNeedInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED0997A1D76BD5100DB8954 /* BLNeedInfoCell.m */; };
+		3ED0997D1D76BD5100DB8954 /* BLNeedInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ED0997B1D76BD5100DB8954 /* BLNeedInfoCell.xib */; };
 		BA6DD36E1D7574EE00420B13 /* BLLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6DD36A1D7574EE00420B13 /* BLLoginViewController.m */; };
 		BA6DD36F1D7574EE00420B13 /* BLLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6DD36B1D7574EE00420B13 /* BLLoginViewController.xib */; };
 		BA6DD3721D75753900420B13 /* BLLoginBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6DD3711D75753900420B13 /* BLLoginBtn.m */; };
@@ -112,12 +110,9 @@
 
 /* Begin PBXFileReference section */
 		284616D67AF9877C222A246A /* Pods-BiLing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiLing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BiLing/Pods-BiLing.debug.xcconfig"; sourceTree = "<group>"; };
-		3E0E69341D758B8D00D911F4 /* BLGeneralCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLGeneralCell.h; sourceTree = "<group>"; };
-		3E0E69351D758B8D00D911F4 /* BLGeneralCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLGeneralCell.m; sourceTree = "<group>"; };
-		3E0E69361D758B8D00D911F4 /* BLGeneralCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLGeneralCell.xib; sourceTree = "<group>"; };
-		3E0E69391D758C0200D911F4 /* BLHurryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLHurryCell.h; sourceTree = "<group>"; };
-		3E0E693A1D758C0200D911F4 /* BLHurryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLHurryCell.m; sourceTree = "<group>"; };
-		3E0E693B1D758C0200D911F4 /* BLHurryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLHurryCell.xib; sourceTree = "<group>"; };
+		3ED099791D76BD5100DB8954 /* BLNeedInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLNeedInfoCell.h; sourceTree = "<group>"; };
+		3ED0997A1D76BD5100DB8954 /* BLNeedInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLNeedInfoCell.m; sourceTree = "<group>"; };
+		3ED0997B1D76BD5100DB8954 /* BLNeedInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLNeedInfoCell.xib; sourceTree = "<group>"; };
 		7295F79C25E1F5FBFCF3E569 /* libPods-BiLing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BiLing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6DD3691D7574EE00420B13 /* BLLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLLoginViewController.h; sourceTree = "<group>"; };
 		BA6DD36A1D7574EE00420B13 /* BLLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLLoginViewController.m; sourceTree = "<group>"; };
@@ -641,12 +636,9 @@
 		BAB40B2E1D73D9AB008DD2D5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3E0E69341D758B8D00D911F4 /* BLGeneralCell.h */,
-				3E0E69351D758B8D00D911F4 /* BLGeneralCell.m */,
-				3E0E69361D758B8D00D911F4 /* BLGeneralCell.xib */,
-				3E0E69391D758C0200D911F4 /* BLHurryCell.h */,
-				3E0E693A1D758C0200D911F4 /* BLHurryCell.m */,
-				3E0E693B1D758C0200D911F4 /* BLHurryCell.xib */,
+				3ED099791D76BD5100DB8954 /* BLNeedInfoCell.h */,
+				3ED0997A1D76BD5100DB8954 /* BLNeedInfoCell.m */,
+				3ED0997B1D76BD5100DB8954 /* BLNeedInfoCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -839,13 +831,17 @@
 				BAB40B3D1D73DA01008DD2D5 /* BLMyViewController.xib in Resources */,
 				BAEA1BDE1D76B6DC00775236 /* BLMyAddressTableViewCell.xib in Resources */,
 				BAB40ADC1D73CED5008DD2D5 /* Assets.xcassets in Resources */,
+
 				BAEA1BB71D76852E00775236 /* BLMyOrderChildTableViewCell.xib in Resources */,
 				3E0E693D1D758C0200D911F4 /* BLHurryCell.xib in Resources */,
+
 				BAB40B381D73D9E0008DD2D5 /* BLMessageViewController.xib in Resources */,
 				BAEA1BD11D76AF9D00775236 /* BLSettingViewController.xib in Resources */,
 				3E0E69381D758B8D00D911F4 /* BLGeneralCell.xib in Resources */,
 				BA6DD3771D75784B00420B13 /* BLBalanceViewController.xib in Resources */,
 				BAEA1BE31D76B96600775236 /* BLAddAddressViewController.xib in Resources */,
+				BA6DD3771D75784B00420B13 /* BLBalanceViewController.xib in Resources */,
+				3ED0997D1D76BD5100DB8954 /* BLNeedInfoCell.xib in Resources */,
 				BA6DD3811D757AF500420B13 /* BLBalanceTableViewCell.xib in Resources */,
 				BA8A53E61D75612900F770BE /* BLMyInfoTableViewCell.xib in Resources */,
 				BAB40B381D73D9E0008DD2D5 /* BLMessageViewController.xib in Resources */,
@@ -976,11 +972,11 @@
 				BAB40B371D73D9E0008DD2D5 /* BLMessageViewController.m in Sources */,
 				BAEA1BE71D76BD1000775236 /* BLAddServiceAddressViewController.m in Sources */,
 				BAB40C721D73E8C6008DD2D5 /* UIBarButtonItem+MJ.m in Sources */,
+				3ED0997C1D76BD5100DB8954 /* BLNeedInfoCell.m in Sources */,
 				BAB40B111D73D57B008DD2D5 /* UIViewController+CYLTabBarControllerExtention.m in Sources */,
 				BAB40AD11D73CED4008DD2D5 /* main.m in Sources */,
 				BA6DD37A1D7579B300420B13 /* BLBalanceTabelHearderView.m in Sources */,
 				BA8A53CB1D74318200F770BE /* BLScrollNotifiView.m in Sources */,
-				3E0E69371D758B8D00D911F4 /* BLGeneralCell.m in Sources */,
 				BA6DD3801D757AF500420B13 /* BLBalanceTableViewCell.m in Sources */,
 				BAEA1BAB1D76828100775236 /* BLConst.m in Sources */,
 				BA8A53C81D742AFD00F770BE /* UIView+HBExtension.m in Sources */,
@@ -1121,6 +1117,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/BiLing/PrefixHeader.pch";
 				INFOPLIST_FILE = BiLing/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -1141,6 +1141,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/BiLing/PrefixHeader.pch";
 				INFOPLIST_FILE = BiLing/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;

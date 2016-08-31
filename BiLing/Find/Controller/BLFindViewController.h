@@ -10,4 +10,15 @@
 
 @interface BLFindViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *BtnAllType;
+
+@property (strong, nonatomic) IBOutlet UIButton *BtnDefaultFilter;
+
+
+- (IBAction)BtnAllTypeClicked:(UIButton *)sender;
+
+
+- (IBAction)BtnDefaultFilterClicked:(UIButton *)sender;
+
+
 @end
