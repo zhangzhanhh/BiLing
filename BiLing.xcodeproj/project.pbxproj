@@ -64,6 +64,15 @@
 		BAB40C7E1D740892008DD2D5 /* BLPlusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB40C7C1D740892008DD2D5 /* BLPlusViewController.xib */; };
 		BAB40C831D7414D2008DD2D5 /* BLFunctionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB40C821D7414D2008DD2D5 /* BLFunctionButton.m */; };
 		BAB40C861D741B14008DD2D5 /* BLHotNeedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB40C851D741B14008DD2D5 /* BLHotNeedButton.m */; };
+		BAEA1B971D7666C600775236 /* BLNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEA1B961D7666C600775236 /* BLNavigationViewController.m */; };
+		BAEA1B9F1D76670200775236 /* LCPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEA1B9A1D76670200775236 /* LCPanGestureRecognizer.m */; };
+		BAEA1BA01D76670200775236 /* LCPanNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEA1B9C1D76670200775236 /* LCPanNavigationController.m */; };
+		BAEA1BA11D76670200775236 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEA1B9E1D76670200775236 /* UIView+Snapshot.m */; };
+		BAEA1BA61D7681B800775236 /* BLMyOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEA1BA51D7681B800775236 /* BLMyOrderViewController.m */; };
+		BAEA1BAB1D76828100775236 /* BLConst.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEA1BAA1D76828100775236 /* BLConst.m */; };
+		BAEA1BB11D76834800775236 /* BLMyOrderChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEA1BAF1D76834800775236 /* BLMyOrderChildViewController.m */; };
+		BAEA1BB61D76852E00775236 /* BLMyOrderChildTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEA1BB41D76852E00775236 /* BLMyOrderChildTableViewCell.m */; };
+		BAEA1BB71D76852E00775236 /* BLMyOrderChildTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAEA1BB51D76852E00775236 /* BLMyOrderChildTableViewCell.xib */; };
 		F67424266205AA2ABD5282A9 /* libPods-BiLing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7295F79C25E1F5FBFCF3E569 /* libPods-BiLing.a */; };
 /* End PBXBuildFile section */
 
@@ -191,6 +200,23 @@
 		BAB40C821D7414D2008DD2D5 /* BLFunctionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLFunctionButton.m; sourceTree = "<group>"; };
 		BAB40C841D741B14008DD2D5 /* BLHotNeedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLHotNeedButton.h; sourceTree = "<group>"; };
 		BAB40C851D741B14008DD2D5 /* BLHotNeedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLHotNeedButton.m; sourceTree = "<group>"; };
+		BAEA1B951D7666C600775236 /* BLNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLNavigationViewController.h; sourceTree = "<group>"; };
+		BAEA1B961D7666C600775236 /* BLNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLNavigationViewController.m; sourceTree = "<group>"; };
+		BAEA1B991D76670200775236 /* LCPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPanGestureRecognizer.h; sourceTree = "<group>"; };
+		BAEA1B9A1D76670200775236 /* LCPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPanGestureRecognizer.m; sourceTree = "<group>"; };
+		BAEA1B9B1D76670200775236 /* LCPanNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPanNavigationController.h; sourceTree = "<group>"; };
+		BAEA1B9C1D76670200775236 /* LCPanNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPanNavigationController.m; sourceTree = "<group>"; };
+		BAEA1B9D1D76670200775236 /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		BAEA1B9E1D76670200775236 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		BAEA1BA41D7681B800775236 /* BLMyOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMyOrderViewController.h; sourceTree = "<group>"; };
+		BAEA1BA51D7681B800775236 /* BLMyOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMyOrderViewController.m; sourceTree = "<group>"; };
+		BAEA1BA91D76828100775236 /* BLConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLConst.h; sourceTree = "<group>"; };
+		BAEA1BAA1D76828100775236 /* BLConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLConst.m; sourceTree = "<group>"; };
+		BAEA1BAE1D76834800775236 /* BLMyOrderChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMyOrderChildViewController.h; sourceTree = "<group>"; };
+		BAEA1BAF1D76834800775236 /* BLMyOrderChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMyOrderChildViewController.m; sourceTree = "<group>"; };
+		BAEA1BB31D76852E00775236 /* BLMyOrderChildTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMyOrderChildTableViewCell.h; sourceTree = "<group>"; };
+		BAEA1BB41D76852E00775236 /* BLMyOrderChildTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMyOrderChildTableViewCell.m; sourceTree = "<group>"; };
+		BAEA1BB51D76852E00775236 /* BLMyOrderChildTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLMyOrderChildTableViewCell.xib; sourceTree = "<group>"; };
 		E595BF160C725C7478D6F2D5 /* Pods-BiLing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiLing.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiLing/Pods-BiLing.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -270,6 +296,8 @@
 			children = (
 				BA8A53E81D75695B00F770BE /* BLBaseViewController.h */,
 				BA8A53E91D75695B00F770BE /* BLBaseViewController.m */,
+				BAEA1B951D7666C600775236 /* BLNavigationViewController.h */,
+				BAEA1B961D7666C600775236 /* BLNavigationViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -349,6 +377,7 @@
 				BA8A53CD1D7438B200F770BE /* BBCyclingLabel.m */,
 				BAB40B121D73D694008DD2D5 /* CYLTabBarControllerConfig.h */,
 				BAB40B131D73D694008DD2D5 /* CYLTabBarControllerConfig.m */,
+				BAEA1B981D76670200775236 /* PanNavigationController */,
 				BAB40B041D73D57B008DD2D5 /* CYLTabBarController */,
 			);
 			name = lib;
@@ -453,6 +482,10 @@
 				BA6DD3731D75784B00420B13 /* BLBalanceViewController.h */,
 				BA6DD3741D75784B00420B13 /* BLBalanceViewController.m */,
 				BA6DD3751D75784B00420B13 /* BLBalanceViewController.xib */,
+				BAEA1BA41D7681B800775236 /* BLMyOrderViewController.h */,
+				BAEA1BA51D7681B800775236 /* BLMyOrderViewController.m */,
+				BAEA1BAE1D76834800775236 /* BLMyOrderChildViewController.h */,
+				BAEA1BAF1D76834800775236 /* BLMyOrderChildViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -488,6 +521,9 @@
 				BA6DD37D1D757AF500420B13 /* BLBalanceTableViewCell.h */,
 				BA6DD37E1D757AF500420B13 /* BLBalanceTableViewCell.m */,
 				BA6DD37F1D757AF500420B13 /* BLBalanceTableViewCell.xib */,
+				BAEA1BB31D76852E00775236 /* BLMyOrderChildTableViewCell.h */,
+				BAEA1BB41D76852E00775236 /* BLMyOrderChildTableViewCell.m */,
+				BAEA1BB51D76852E00775236 /* BLMyOrderChildTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -557,6 +593,8 @@
 				BAB40C7A1D740892008DD2D5 /* BLPlusViewController.h */,
 				BAB40C7B1D740892008DD2D5 /* BLPlusViewController.m */,
 				BAB40C7C1D740892008DD2D5 /* BLPlusViewController.xib */,
+				BAEA1BA91D76828100775236 /* BLConst.h */,
+				BAEA1BAA1D76828100775236 /* BLConst.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -590,6 +628,19 @@
 			path = Categery;
 			sourceTree = "<group>";
 		};
+		BAEA1B981D76670200775236 /* PanNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				BAEA1B991D76670200775236 /* LCPanGestureRecognizer.h */,
+				BAEA1B9A1D76670200775236 /* LCPanGestureRecognizer.m */,
+				BAEA1B9B1D76670200775236 /* LCPanNavigationController.h */,
+				BAEA1B9C1D76670200775236 /* LCPanNavigationController.m */,
+				BAEA1B9D1D76670200775236 /* UIView+Snapshot.h */,
+				BAEA1B9E1D76670200775236 /* UIView+Snapshot.m */,
+			);
+			path = PanNavigationController;
+			sourceTree = "<group>";
+		};
 		DF85BF0EEA720FA6E4ABF29F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -611,6 +662,7 @@
 				BAB40ACA1D73CED3008DD2D5 /* Resources */,
 				5EF92ABF031505A828028BF5 /* 📦 Embed Pods Frameworks */,
 				8B5692FA9A1B6EE35628CB55 /* 📦 Copy Pods Resources */,
+				9DE40228F4603E3D05356DA0 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -712,6 +764,7 @@
 				BAB40B251D73D97F008DD2D5 /* BLHomeViewController.xib in Resources */,
 				BAB40B3D1D73DA01008DD2D5 /* BLMyViewController.xib in Resources */,
 				BAB40ADC1D73CED5008DD2D5 /* Assets.xcassets in Resources */,
+				BAEA1BB71D76852E00775236 /* BLMyOrderChildTableViewCell.xib in Resources */,
 				3E0E693D1D758C0200D911F4 /* BLHurryCell.xib in Resources */,
 				BAB40B381D73D9E0008DD2D5 /* BLMessageViewController.xib in Resources */,
 				3E0E69381D758B8D00D911F4 /* BLGeneralCell.xib in Resources */,
@@ -787,6 +840,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiLing/Pods-BiLing-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9DE40228F4603E3D05356DA0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BiLing/Pods-BiLing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -796,6 +864,7 @@
 			files = (
 				3E0E693C1D758C0200D911F4 /* BLHurryCell.m in Sources */,
 				BAB40B141D73D694008DD2D5 /* CYLTabBarControllerConfig.m in Sources */,
+				BAEA1BA11D76670200775236 /* UIView+Snapshot.m in Sources */,
 				BAB40C751D73FAAA008DD2D5 /* BLUserManager.m in Sources */,
 				BA8A53ED1D7569C800F770BE /* BLMyInfoTabelHeardView.m in Sources */,
 				BA6DD36E1D7574EE00420B13 /* BLLoginViewController.m in Sources */,
@@ -803,9 +872,13 @@
 				BAB40B321D73D9CF008DD2D5 /* BLFindViewController.m in Sources */,
 				BAB40AD41D73CED4008DD2D5 /* AppDelegate.m in Sources */,
 				BA8A53CE1D7438B200F770BE /* BBCyclingLabel.m in Sources */,
+				BAEA1BB11D76834800775236 /* BLMyOrderChildViewController.m in Sources */,
 				BA8A53E51D75612900F770BE /* BLMyInfoTableViewCell.m in Sources */,
 				BAB40B101D73D57B008DD2D5 /* CYLTabBarController.m in Sources */,
 				BAB40C791D73FBFD008DD2D5 /* HHHttpTool.m in Sources */,
+				BAEA1BA01D76670200775236 /* LCPanNavigationController.m in Sources */,
+				BAEA1B971D7666C600775236 /* BLNavigationViewController.m in Sources */,
+				BAEA1BA61D7681B800775236 /* BLMyOrderViewController.m in Sources */,
 				BA6DD3841D757C2D00420B13 /* BLBanlanceCellModel.m in Sources */,
 				BA6DD3761D75784B00420B13 /* BLBalanceViewController.m in Sources */,
 				BAB40B3C1D73DA01008DD2D5 /* BLMyViewController.m in Sources */,
@@ -824,10 +897,13 @@
 				BA8A53CB1D74318200F770BE /* BLScrollNotifiView.m in Sources */,
 				3E0E69371D758B8D00D911F4 /* BLGeneralCell.m in Sources */,
 				BA6DD3801D757AF500420B13 /* BLBalanceTableViewCell.m in Sources */,
+				BAEA1BAB1D76828100775236 /* BLConst.m in Sources */,
 				BA8A53C81D742AFD00F770BE /* UIView+HBExtension.m in Sources */,
 				BAB40B241D73D97F008DD2D5 /* BLHomeViewController.m in Sources */,
 				BAB40C831D7414D2008DD2D5 /* BLFunctionButton.m in Sources */,
 				BAB40C7D1D740892008DD2D5 /* BLPlusViewController.m in Sources */,
+				BAEA1BB61D76852E00775236 /* BLMyOrderChildTableViewCell.m in Sources */,
+				BAEA1B9F1D76670200775236 /* LCPanGestureRecognizer.m in Sources */,
 				BAB40C861D741B14008DD2D5 /* BLHotNeedButton.m in Sources */,
 				BA8A53DC1D751C5C00F770BE /* BLOrderButton.m in Sources */,
 				BA8A53D41D743F2900F770BE /* UIImage+XMGExtension.m in Sources */,

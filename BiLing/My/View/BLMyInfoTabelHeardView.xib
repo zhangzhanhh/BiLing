@@ -25,31 +25,48 @@
                             </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 刘小豪" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2H-K0-BOG">
-                            <rect key="frame" x="279" y="98" width="43" height="16"/>
+                            <rect key="frame" x="259" y="98" width="43" height="16"/>
                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fwr-qt-19J">
+                            <rect key="frame" x="302" y="95" width="50" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="SYg-ZL-3b8"/>
+                            </constraints>
+                            <state key="normal" image="形状-5"/>
+                        </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstItem="h2H-K0-BOG" firstAttribute="centerX" secondItem="wdd-6B-yS9" secondAttribute="centerX" id="6SG-DI-4nN"/>
+                        <constraint firstItem="Fwr-qt-19J" firstAttribute="centerY" secondItem="h2H-K0-BOG" secondAttribute="centerY" id="2t2-H2-dVc"/>
+                        <constraint firstItem="h2H-K0-BOG" firstAttribute="centerX" secondItem="wdd-6B-yS9" secondAttribute="centerX" constant="-20" id="6SG-DI-4nN"/>
                         <constraint firstItem="h2H-K0-BOG" firstAttribute="top" secondItem="zRZ-GB-0xt" secondAttribute="bottom" constant="5" id="BXY-Wf-tLa"/>
                         <constraint firstItem="xFT-MG-Jh8" firstAttribute="leading" secondItem="wdd-6B-yS9" secondAttribute="leading" id="IS2-Al-HfF"/>
+                        <constraint firstAttribute="bottom" secondItem="Fwr-qt-19J" secondAttribute="bottom" id="LkP-kJ-6Kw"/>
+                        <constraint firstItem="Fwr-qt-19J" firstAttribute="top" secondItem="wdd-6B-yS9" secondAttribute="top" id="LkZ-aW-Epp"/>
                         <constraint firstAttribute="trailing" secondItem="xFT-MG-Jh8" secondAttribute="trailing" id="N8d-Qb-LX4"/>
                         <constraint firstAttribute="bottom" secondItem="xFT-MG-Jh8" secondAttribute="bottom" id="ORC-B2-F4r"/>
                         <constraint firstAttribute="height" constant="128" id="Otd-vT-xr0"/>
                         <constraint firstItem="zRZ-GB-0xt" firstAttribute="centerX" secondItem="wdd-6B-yS9" secondAttribute="centerX" id="cbs-pC-zgr"/>
                         <constraint firstItem="zRZ-GB-0xt" firstAttribute="centerY" secondItem="wdd-6B-yS9" secondAttribute="centerY" constant="-8" id="eh8-YP-wUN"/>
                         <constraint firstItem="xFT-MG-Jh8" firstAttribute="top" secondItem="wdd-6B-yS9" secondAttribute="top" id="oqR-od-7Zr"/>
+                        <constraint firstItem="Fwr-qt-19J" firstAttribute="leading" secondItem="h2H-K0-BOG" secondAttribute="trailing" id="rq1-gL-4Q5"/>
                     </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="LkP-kJ-6Kw"/>
+                            <exclude reference="LkZ-aW-Epp"/>
+                        </mask>
+                    </variation>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hL1-2H-8Fg">
                     <rect key="frame" x="0.0" y="128" width="600" height="100"/>
                     <subviews>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDg-z9-sb0" customClass="BLInfoButton">
-                            <rect key="frame" x="30" y="22" width="147" height="57"/>
-                            <state key="normal" title="上传形象照" image="形状-12"/>
+                            <rect key="frame" x="30" y="27" width="136" height="46"/>
+                            <state key="normal" title="上传形象照" image="椭圆-1"/>
                             <connections>
                                 <action selector="uploadImageBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="pDP-Tb-4N4"/>
                             </connections>
@@ -79,8 +96,9 @@
         </view>
     </objects>
     <resources>
-        <image name="形状-12" width="57" height="57"/>
         <image name="形状-15-拷贝" width="375" height="192"/>
+        <image name="形状-5" width="14" height="13"/>
+        <image name="椭圆-1" width="46" height="46"/>
         <image name="椭圆-1-拷贝-2" width="85" height="74"/>
     </resources>
 </document>

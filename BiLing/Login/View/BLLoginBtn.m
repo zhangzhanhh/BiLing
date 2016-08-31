@@ -14,4 +14,8 @@
     [self setTitleColor:[UIColor whiteColor] forState:UIControlStateSelected];
     self.titleLabel.font = FONT(13);
 }
+
+- (void)layoutSubviews{
+    [super layoutSubviews];
+}
 @end

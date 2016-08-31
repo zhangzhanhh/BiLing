@@ -12,6 +12,7 @@
 #import "BLMyInfoViewController.h"
 #import "BLBalanceViewController.h"
 #import "BLLoginViewController.h"
+#import "BLMyOrderViewController.h"
 
 @interface BLMyViewController ()<BLTableHearderViewDelegate>
 @property (nonatomic, strong) NSArray<NSArray *> *settingTitles;
@@ -120,7 +121,7 @@
             break;
         }
         case BLTableHearderViewOtherBtnClick:{
-            
+            VC = [[BLMyOrderViewController alloc] init];
             break;
         }
             
