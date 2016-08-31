@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "CYLTabBarControllerConfig.h"
 #import "BLPlusButton.h"
+#import "IQKeyboardManager.h"
 
 @interface AppDelegate ()
 
@@ -25,6 +26,15 @@
     [self.window setRootViewController:tabBarControllerConfig.tabBarController];
     [self.window makeKeyAndVisible];
     [self customizeInterface];
+    
+    
+    // 第三方键盘管理
+    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
+    manager.enable = YES;
+    manager.shouldResignOnTouchOutside = YES;
+    manager.shouldToolbarUsesTextFieldTintColor = YES;
+    manager.enableAutoToolbar = NO;
+    
     return YES;
 }
 

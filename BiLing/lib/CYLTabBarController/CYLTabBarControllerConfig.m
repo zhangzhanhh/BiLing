@@ -7,17 +7,26 @@
 //
 #import "CYLTabBarControllerConfig.h"
 
+#import "BLNavigationViewController.h"
+#import "UIBarButtonItem+MJ.h"
+
+
 @import Foundation;
 @import UIKit;
-@interface CYLBaseNavigationController : UINavigationController
+@interface CYLBaseNavigationController : BLNavigationViewController
 @end
 @implementation CYLBaseNavigationController
 
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated {
     if (self.viewControllers.count > 0) {
         viewController.hidesBottomBarWhenPushed = YES;
+        viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithIcon:@"矩形-1-拷贝" highIcon:@"矩形-1-拷贝" target:self action:@selector(toback)];
     }
     [super pushViewController:viewController animated:animated];
+}
+
+- (void)toback{
+    [self popViewControllerAnimated:YES];
 }
 
 @end

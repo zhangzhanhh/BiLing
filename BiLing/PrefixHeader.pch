@@ -11,6 +11,7 @@
 
 #import "UIView+HBExtension.h"
 #import "BLBaseViewController.h"
+#import "BLConst.h"
 
 #define kPaddingColor      BLColor(220,220,220)   //分割线
 #define kMainTextColor BLColor(40,40,40)
@@ -48,5 +49,9 @@
 #define IOS8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0 ? YES : NO)
 // 通知
 #define BLNotificationCenter [NSNotificationCenter defaultCenter]
+
+#define g_screenWidth [UIScreen mainScreen].bounds.size.width
+#define g_screenHeight [UIScreen mainScreen].bounds.size.height
+#define NAV_BAR_HEIGHT (IOS7?64:44)
 
 #endif /* PrefixHeader_pch */
