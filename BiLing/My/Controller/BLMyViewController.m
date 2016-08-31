@@ -14,7 +14,14 @@
 #import "BLLoginViewController.h"
 #import "BLMyOrderViewController.h"
 
-@interface BLMyViewController ()<BLTableHearderViewDelegate>
+#import "BLMyCollectViewController.h"
+#import "BLMyAddressManagerViewController.h"
+#import "BLFeedbackViewController.h"
+#import "BLSettingViewController.h"
+
+#import <UMSocial.h>
+
+@interface BLMyViewController ()<BLTableHearderViewDelegate,UIAlertViewDelegate,UMSocialUIDelegate>
 @property (nonatomic, strong) NSArray<NSArray *> *settingTitles;
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (weak, nonatomic) BLTableHearderView *hearderView;
@@ -26,13 +33,13 @@
 - (NSArray *)settingTitles{
     if([BLUserManager sharedUserManager].state == BLUserManagerStateLogIn){
         _settingTitles = @[
-                           @[@"我的收藏&FTChangePassworldViewController",@"地址管理&FTOrderHistoryViewController"],
-                           @[@"分享给好友&",@"用户反馈&",@"联系客服&FTAboutViewController",@"设置&"],
+                           @[@"我的收藏&BLMyCollectViewController",@"地址管理&BLMyAddressManagerViewController"],
+                           @[@"分享给好友&",@"用户反馈&BLFeedbackViewController",@"联系客服&FTAboutViewController",@"设置&BLSettingViewController"],
                            ];
     }else{
         _settingTitles = @[
-                           @[@"我的收藏&FTChangePassworldViewController",@"地址管理&FTOrderHistoryViewController"],
-                           @[@"分享给好友&",@"用户反馈&",@"联系客服&FTAboutViewController",@"设置&"],
+                           @[@"我的收藏&BLMyCollectViewController",@"地址管理&BLMyAddressManagerViewController"],
+                           @[@"分享给好友&",@"用户反馈&BLFeedbackViewController",@"联系客服&FTAboutViewController",@"设置&BLSettingViewController"],
                            ];
     }
     return _settingTitles;
@@ -82,13 +89,28 @@
     NSString *titleName = [self.settingTitles[indexPath.section][indexPath.row] componentsSeparatedByString:@"&"].firstObject;
     // 类名
     NSString *nibName = [self.settingTitles[indexPath.section][indexPath.row] componentsSeparatedByString:@"&"].lastObject;
+    if ([titleName isEqualToString:@"联系客服"]) {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"400-879-6699" message:nil delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"呼叫", nil];
+        [alertView show];
+        return;
+    }
+    if ([titleName isEqualToString:@"分享给好友"]) {
+        [UMSocialSnsService presentSnsIconSheetView:self
+                                             appKey:@"578d91a667e58ecf5d003e1c"
+                                          shareText:@"时光倒流,让家电完好如初"
+                                         shareImage:[UIImage imageNamed:@"形状-4"]
+                                    shareToSnsNames:[NSArray arrayWithObjects:UMShareToQQ,UMShareToWechatSession,UMShareToWechatTimeline,nil]
+                                           delegate:self];
+        return;
+    }
     if ([nibName hasPrefix:@"BL"]) {
         Class VCClass = NSClassFromString(nibName);
         UIViewController *VC = [[VCClass alloc] initWithNibName:nibName bundle:nil];
         VC.title = titleName;
         [self.navigationController pushViewController:VC animated:YES];
         return;
-    }}
+    }
+}
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 55;
@@ -101,7 +123,7 @@
 }
 
 #pragma mark - BLTableHearderViewDelegate
-- (void)tableHearderView:(BLTableHearderView *)tableHearderView didClickBtnWithType:(BLTableHearderViewBtnClickType)type{
+- (void)tableHearderView:(BLTableHearderView *)tableHearderView didClickBtn:(UIButton *)btn withType:(BLTableHearderViewBtnClickType)type{
     UIViewController *VC = nil;
     switch (type) {
         case BLTableHearderViewUserIconBtnClick:{
@@ -122,6 +144,7 @@
         }
         case BLTableHearderViewOtherBtnClick:{
             VC = [[BLMyOrderViewController alloc] init];
+            VC.title = btn.titleLabel.text;
             break;
         }
             
@@ -129,6 +152,20 @@
             break;
     }
     [self.navigationController pushViewController:VC animated:YES];
+}
+
+#pragma mark - UIAlertViewDelegate
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    switch (buttonIndex) {
+        case 0:
+            break;
+        case 1:{
+            if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"tel://400-879-6699"]]) {
+                [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel://400-879-6699"]];
+            }
+            break;
+        }
+    }
 }
 
 

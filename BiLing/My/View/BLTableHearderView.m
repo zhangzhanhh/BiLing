@@ -26,28 +26,28 @@
 }
 
 - (IBAction)userIconBtnClick:(UIButton *)sender {
-    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtnWithType:)]) {
-        [self.delegate tableHearderView:self didClickBtnWithType:BLTableHearderViewUserIconBtnClick];
+    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtn:withType:)]) {
+        [self.delegate tableHearderView:self didClickBtn:sender withType:BLTableHearderViewUserIconBtnClick];
     }
 }
 - (IBAction)loginBtnClick:(UIButton *)sender {
-    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtnWithType:)]) {
-        [self.delegate tableHearderView:self didClickBtnWithType:BLTableHearderViewLoginBtnClick];
+    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtn:withType:)]) {
+        [self.delegate tableHearderView:self didClickBtn:sender withType:BLTableHearderViewLoginBtnClick];
     }
 }
 - (IBAction)conutBtnClick:(UIButton *)sender {
-    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtnWithType:)]) {
-        [self.delegate tableHearderView:self didClickBtnWithType:BLTableHearderViewConutBtnClick];
+    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtn:withType:)]) {
+        [self.delegate tableHearderView:self didClickBtn:sender withType:BLTableHearderViewConutBtnClick];
     }
 }
 - (IBAction)redBagBtnClick:(UIButton *)sender {
-    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtnWithType:)]) {
-        [self.delegate tableHearderView:self didClickBtnWithType:BLTableHearderViewRedBagBtnClick];
+    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtn:withType:)]) {
+        [self.delegate tableHearderView:self didClickBtn:sender withType:BLTableHearderViewRedBagBtnClick];
     }
 }
 - (IBAction)orderBtnClick:(BLOrderButton *)sender {
-    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtnWithType:)]) {
-        [self.delegate tableHearderView:self didClickBtnWithType:BLTableHearderViewOtherBtnClick];
+    if ([self.delegate respondsToSelector:@selector(tableHearderView:didClickBtn:withType:)]) {
+        [self.delegate tableHearderView:self didClickBtn:sender withType:BLTableHearderViewOtherBtnClick];
     }
 }
 

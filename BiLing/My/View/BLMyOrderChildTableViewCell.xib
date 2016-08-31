@@ -103,19 +103,33 @@
                         </constraints>
                     </imageView>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="If3-4U-xw3">
-                        <rect key="frame" x="0.0" y="140" width="320" height="40"/>
+                        <rect key="frame" x="0.0" y="139" width="320" height="41"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdj-eR-49J">
-                                <rect key="frame" x="252" y="5" width="60" height="30"/>
+                                <rect key="frame" x="252" y="6" width="60" height="30"/>
                                 <state key="normal" title="确认订单"/>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dOk-Zk-pfB">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="RKu-ze-q2d"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="dOk-Zk-pfB" firstAttribute="leading" secondItem="If3-4U-xw3" secondAttribute="leading" id="AV1-jf-4CT"/>
+                            <constraint firstAttribute="trailing" secondItem="dOk-Zk-pfB" secondAttribute="trailing" id="RRE-b0-liY"/>
                             <constraint firstAttribute="trailing" secondItem="hdj-eR-49J" secondAttribute="trailing" constant="8" id="TRr-Ij-qNS"/>
-                            <constraint firstAttribute="height" constant="40" id="WUn-C2-xPi"/>
+                            <constraint firstItem="dOk-Zk-pfB" firstAttribute="top" secondItem="If3-4U-xw3" secondAttribute="top" id="TbT-Be-2Ga"/>
+                            <constraint firstAttribute="height" constant="41" id="WUn-C2-xPi"/>
                             <constraint firstItem="hdj-eR-49J" firstAttribute="centerY" secondItem="If3-4U-xw3" secondAttribute="centerY" id="iXg-od-bbC"/>
                         </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gbq-RK-eOd">
+                        <rect key="frame" x="0.0" y="180" width="320" height="19"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </subviews>
                 <constraints>
@@ -123,16 +137,20 @@
                     <constraint firstAttribute="bottom" secondItem="If3-4U-xw3" secondAttribute="bottom" constant="10" id="3Js-yv-2Bd"/>
                     <constraint firstItem="tJF-A0-aPT" firstAttribute="top" secondItem="6tz-ot-V3j" secondAttribute="bottom" id="3XV-id-4ZY"/>
                     <constraint firstAttribute="trailing" secondItem="OPZ-D6-VD4" secondAttribute="trailing" constant="8" id="71n-Lk-S7x"/>
+                    <constraint firstAttribute="trailing" secondItem="gbq-RK-eOd" secondAttribute="trailing" id="9Ad-Js-3hb"/>
                     <constraint firstAttribute="trailing" secondItem="If3-4U-xw3" secondAttribute="trailing" id="9fe-MH-beV"/>
                     <constraint firstItem="6tz-ot-V3j" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="DeJ-a7-Fn1"/>
                     <constraint firstItem="If3-4U-xw3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Ggg-ij-UKk"/>
                     <constraint firstItem="307-Ds-dha" firstAttribute="centerY" secondItem="6tz-ot-V3j" secondAttribute="centerY" id="LhD-il-SAh"/>
                     <constraint firstItem="tJF-A0-aPT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="PUE-YA-Buz"/>
+                    <constraint firstItem="gbq-RK-eOd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="RN9-p9-dEM"/>
                     <constraint firstItem="307-Ds-dha" firstAttribute="leading" secondItem="gt9-xd-iDm" secondAttribute="trailing" constant="15" id="T5Z-Nd-7nO"/>
-                    <constraint firstItem="If3-4U-xw3" firstAttribute="top" secondItem="tJF-A0-aPT" secondAttribute="bottom" constant="1" id="hRz-Sq-hJj"/>
+                    <constraint firstAttribute="bottom" secondItem="gbq-RK-eOd" secondAttribute="bottom" id="ZoV-i1-jbz"/>
+                    <constraint firstItem="If3-4U-xw3" firstAttribute="top" secondItem="tJF-A0-aPT" secondAttribute="bottom" id="hRz-Sq-hJj"/>
                     <constraint firstItem="OPZ-D6-VD4" firstAttribute="centerY" secondItem="6tz-ot-V3j" secondAttribute="centerY" id="hkA-kL-acI"/>
                     <constraint firstAttribute="bottom" secondItem="tJF-A0-aPT" secondAttribute="bottom" constant="60" id="n7m-Mk-5zg"/>
                     <constraint firstItem="gt9-xd-iDm" firstAttribute="leading" secondItem="6tz-ot-V3j" secondAttribute="trailing" constant="10" id="nnl-Ps-zbb"/>
+                    <constraint firstItem="gbq-RK-eOd" firstAttribute="top" secondItem="If3-4U-xw3" secondAttribute="bottom" id="quj-e8-Jxl"/>
                     <constraint firstAttribute="trailing" secondItem="tJF-A0-aPT" secondAttribute="trailing" id="vs0-K3-jkk"/>
                     <constraint firstItem="gt9-xd-iDm" firstAttribute="centerY" secondItem="6tz-ot-V3j" secondAttribute="centerY" id="yPd-3j-9RO"/>
                 </constraints>
@@ -142,6 +160,10 @@
                     </mask>
                 </variation>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="fengexian" destination="dOk-Zk-pfB" id="vMN-Fc-Ej8"/>
+                <outlet property="footView" destination="gbq-RK-eOd" id="Bmr-m0-9Ln"/>
+            </connections>
         </tableViewCell>
     </objects>
     <resources>
