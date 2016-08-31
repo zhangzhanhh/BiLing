@@ -1,14 +1,14 @@
 //
-//  BLGeneralCell.m
+//  BLNeedInfoCell.m
 //  BiLing
 //
-//  Created by 智涵科技 on 16/8/30.
+//  Created by 智涵科技 on 16/8/31.
 //  Copyright © 2016年 MrZ. All rights reserved.
 //
 
-#import "BLGeneralCell.h"
+#import "BLNeedInfoCell.h"
 
-@implementation BLGeneralCell
+@implementation BLNeedInfoCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

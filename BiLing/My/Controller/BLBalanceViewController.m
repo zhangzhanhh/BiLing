@@ -46,7 +46,8 @@
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([BLBalanceTableViewCell class]) bundle:nil] forCellReuseIdentifier:BLBalanceTableViewCellReuserID];
     BLBalanceTabelHearderView *hearder = [BLBalanceTabelHearderView loadViewFromNib];
     hearder.delegate = self;
-    self.tableView.tableHeaderView = hearder;
+    hearder.backgroundColor = [UIColor redColor];
+    [self.tableView setTableHeaderView:hearder];
     self.tableView.tableFooterView = [UIView new];
 }
 

@@ -8,6 +8,7 @@
 
 #import "BLFindViewController.h"
 
+
 @interface BLFindViewController ()
 
 
@@ -15,33 +16,26 @@
 @end
 
 @implementation BLFindViewController
-//全部类目
-- (IBAction)allTypeClick:(UIButton *)sender {
-}
-//默认筛选
-- (IBAction)defaultFilterClick:(UIButton *)sender {
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"发现";
-    
-    
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)BtnAllTypeClicked:(UIButton *)sender {
+    if([self.BtnAllType.titleLabel.text isEqualToString:@"全部类目  ∨"])
+    {
+        [self.BtnAllType setTitle:@"全部类目  ^" forState:UIControlStateNormal];
+    }else{
+        [self.BtnAllType setTitle:@"全部类目  ∨" forState:UIControlStateNormal];
+    }
+
 }
 
-/*
-#pragma mark - Navigation
+- (IBAction)BtnDefaultFilterClicked:(UIButton *)sender {
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
 }
-*/
+
 
 @end
