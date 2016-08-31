@@ -23,6 +23,7 @@
 - (void)awakeFromNib{
     self.backgroundColor = kBgColor;
     self.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 234);
+    self.autoresizingMask = UIViewAutoresizingNone;
 }
 
 @end

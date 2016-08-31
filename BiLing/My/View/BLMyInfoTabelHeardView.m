@@ -20,6 +20,7 @@
 
 - (void)awakeFromNib{
     self.frame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 233);
+    self.autoresizingMask = UIViewAutoresizingNone;
 }
 
 - (IBAction)iconBtnClick:(UIButton *)sender {

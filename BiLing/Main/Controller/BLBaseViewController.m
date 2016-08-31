@@ -16,10 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    if (self == self.navigationController.viewControllers.firstObject) {
-        return;
-    }
-    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithIcon:@"" highIcon:@"" target:self action:@selector(backVC)];
+//    if (self == self.navigationController.viewControllers.firstObject) {
+//        return;
+//    }
+//    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithIcon:@"" highIcon:@"" target:self action:@selector(backVC)];
 }
 
 - (void)backVC{
