@@ -14,13 +14,6 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="199"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wd2" translatesAutoresizingMaskIntoConstraints="NO" id="6tz-ot-V3j">
-                        <rect key="frame" x="8" y="8" width="40" height="40"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="40" id="Oci-Ke-FVz"/>
-                            <constraint firstAttribute="width" constant="40" id="UsE-KX-BTD"/>
-                        </constraints>
-                    </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="室外写真集×1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gt9-xd-iDm">
                         <rect key="frame" x="58" y="19" width="92" height="18"/>
                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -117,6 +110,13 @@
                             <constraint firstItem="hdj-eR-49J" firstAttribute="centerY" secondItem="If3-4U-xw3" secondAttribute="centerY" id="iXg-od-bbC"/>
                         </constraints>
                     </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wd2" translatesAutoresizingMaskIntoConstraints="NO" id="6tz-ot-V3j">
+                        <rect key="frame" x="8" y="8" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Oci-Ke-FVz"/>
+                            <constraint firstAttribute="width" constant="40" id="UsE-KX-BTD"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <constraints>
                     <constraint firstItem="6tz-ot-V3j" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="1RG-tf-odo"/>
@@ -142,6 +142,7 @@
                     </mask>
                 </variation>
             </tableViewCellContentView>
+            <point key="canvasLocation" x="217" y="341"/>
         </tableViewCell>
     </objects>
     <resources>
