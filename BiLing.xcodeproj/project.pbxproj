@@ -49,8 +49,6 @@
 		BAB40B251D73D97F008DD2D5 /* BLHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB40B211D73D97F008DD2D5 /* BLHomeViewController.xib */; };
 		BAB40B321D73D9CF008DD2D5 /* BLFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB40B301D73D9CF008DD2D5 /* BLFindViewController.m */; };
 		BAB40B331D73D9CF008DD2D5 /* BLFindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB40B311D73D9CF008DD2D5 /* BLFindViewController.xib */; };
-		BAB40B371D73D9E0008DD2D5 /* BLMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB40B351D73D9E0008DD2D5 /* BLMessageViewController.m */; };
-		BAB40B381D73D9E0008DD2D5 /* BLMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB40B361D73D9E0008DD2D5 /* BLMessageViewController.xib */; };
 		BAB40B3C1D73DA01008DD2D5 /* BLMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB40B3A1D73DA01008DD2D5 /* BLMyViewController.m */; };
 		BAB40B3D1D73DA01008DD2D5 /* BLMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAB40B3B1D73DA01008DD2D5 /* BLMyViewController.xib */; };
 		BAB40C661D73E0CD008DD2D5 /* BLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB40C651D73E0CD008DD2D5 /* BLPlusButton.m */; };
@@ -88,6 +86,8 @@
 		BAEA1BE31D76B96600775236 /* BLAddAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAEA1BE11D76B96600775236 /* BLAddAddressViewController.xib */; };
 		BAEA1BE71D76BD1000775236 /* BLAddServiceAddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEA1BE51D76BD1000775236 /* BLAddServiceAddressViewController.m */; };
 		BAEA1BE81D76BD1000775236 /* BLAddServiceAddressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAEA1BE61D76BD1000775236 /* BLAddServiceAddressViewController.xib */; };
+		BAEA1BEE1D77B2B100775236 /* BLMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAEA1BEC1D77B2B100775236 /* BLMessageViewController.m */; };
+		BAEA1BEF1D77B2B100775236 /* BLMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAEA1BED1D77B2B100775236 /* BLMessageViewController.xib */; };
 		F67424266205AA2ABD5282A9 /* libPods-BiLing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7295F79C25E1F5FBFCF3E569 /* libPods-BiLing.a */; };
 /* End PBXBuildFile section */
 
@@ -187,9 +187,6 @@
 		BAB40B2F1D73D9CF008DD2D5 /* BLFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLFindViewController.h; sourceTree = "<group>"; };
 		BAB40B301D73D9CF008DD2D5 /* BLFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLFindViewController.m; sourceTree = "<group>"; };
 		BAB40B311D73D9CF008DD2D5 /* BLFindViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLFindViewController.xib; sourceTree = "<group>"; };
-		BAB40B341D73D9E0008DD2D5 /* BLMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMessageViewController.h; sourceTree = "<group>"; };
-		BAB40B351D73D9E0008DD2D5 /* BLMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMessageViewController.m; sourceTree = "<group>"; };
-		BAB40B361D73D9E0008DD2D5 /* BLMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLMessageViewController.xib; sourceTree = "<group>"; };
 		BAB40B391D73DA01008DD2D5 /* BLMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMyViewController.h; sourceTree = "<group>"; };
 		BAB40B3A1D73DA01008DD2D5 /* BLMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMyViewController.m; sourceTree = "<group>"; };
 		BAB40B3B1D73DA01008DD2D5 /* BLMyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLMyViewController.xib; sourceTree = "<group>"; };
@@ -255,6 +252,9 @@
 		BAEA1BE41D76BD1000775236 /* BLAddServiceAddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLAddServiceAddressViewController.h; sourceTree = "<group>"; };
 		BAEA1BE51D76BD1000775236 /* BLAddServiceAddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLAddServiceAddressViewController.m; sourceTree = "<group>"; };
 		BAEA1BE61D76BD1000775236 /* BLAddServiceAddressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLAddServiceAddressViewController.xib; sourceTree = "<group>"; };
+		BAEA1BEB1D77B2B100775236 /* BLMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLMessageViewController.h; sourceTree = "<group>"; };
+		BAEA1BEC1D77B2B100775236 /* BLMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLMessageViewController.m; sourceTree = "<group>"; };
+		BAEA1BED1D77B2B100775236 /* BLMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BLMessageViewController.xib; sourceTree = "<group>"; };
 		E595BF160C725C7478D6F2D5 /* Pods-BiLing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BiLing.release.xcconfig"; path = "Pods/Target Support Files/Pods-BiLing/Pods-BiLing.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -595,9 +595,9 @@
 		BAB40B291D73D99E008DD2D5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BAB40B341D73D9E0008DD2D5 /* BLMessageViewController.h */,
-				BAB40B351D73D9E0008DD2D5 /* BLMessageViewController.m */,
-				BAB40B361D73D9E0008DD2D5 /* BLMessageViewController.xib */,
+				BAEA1BEB1D77B2B100775236 /* BLMessageViewController.h */,
+				BAEA1BEC1D77B2B100775236 /* BLMessageViewController.m */,
+				BAEA1BED1D77B2B100775236 /* BLMessageViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -831,20 +831,15 @@
 				BAB40B3D1D73DA01008DD2D5 /* BLMyViewController.xib in Resources */,
 				BAEA1BDE1D76B6DC00775236 /* BLMyAddressTableViewCell.xib in Resources */,
 				BAB40ADC1D73CED5008DD2D5 /* Assets.xcassets in Resources */,
-
 				BAEA1BB71D76852E00775236 /* BLMyOrderChildTableViewCell.xib in Resources */,
-				3E0E693D1D758C0200D911F4 /* BLHurryCell.xib in Resources */,
-
-				BAB40B381D73D9E0008DD2D5 /* BLMessageViewController.xib in Resources */,
 				BAEA1BD11D76AF9D00775236 /* BLSettingViewController.xib in Resources */,
-				3E0E69381D758B8D00D911F4 /* BLGeneralCell.xib in Resources */,
 				BA6DD3771D75784B00420B13 /* BLBalanceViewController.xib in Resources */,
 				BAEA1BE31D76B96600775236 /* BLAddAddressViewController.xib in Resources */,
 				BA6DD3771D75784B00420B13 /* BLBalanceViewController.xib in Resources */,
+				BAEA1BEF1D77B2B100775236 /* BLMessageViewController.xib in Resources */,
 				3ED0997D1D76BD5100DB8954 /* BLNeedInfoCell.xib in Resources */,
 				BA6DD3811D757AF500420B13 /* BLBalanceTableViewCell.xib in Resources */,
 				BA8A53E61D75612900F770BE /* BLMyInfoTableViewCell.xib in Resources */,
-				BAB40B381D73D9E0008DD2D5 /* BLMessageViewController.xib in Resources */,
 				BA8A53EF1D7569E400F770BE /* BLMyInfoTabelHeardView.xib in Resources */,
 				BAB40B331D73D9CF008DD2D5 /* BLFindViewController.xib in Resources */,
 				BA6DD37C1D7579CC00420B13 /* BLBalanceTabelHearderView.xib in Resources */,
@@ -936,7 +931,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAEA1BD01D76AF9D00775236 /* BLSettingViewController.m in Sources */,
-				3E0E693C1D758C0200D911F4 /* BLHurryCell.m in Sources */,
 				BAB40B141D73D694008DD2D5 /* CYLTabBarControllerConfig.m in Sources */,
 				BAEA1BD91D76B3B500775236 /* BLMyCollectModel.m in Sources */,
 				BAEA1BA11D76670200775236 /* UIView+Snapshot.m in Sources */,
@@ -969,7 +963,6 @@
 				BAB40B0F1D73D57B008DD2D5 /* CYLTabBar.m in Sources */,
 				BA8A53E01D7560BD00F770BE /* BLMyInfoViewController.m in Sources */,
 				BAEA1BDD1D76B6DC00775236 /* BLMyAddressTableViewCell.m in Sources */,
-				BAB40B371D73D9E0008DD2D5 /* BLMessageViewController.m in Sources */,
 				BAEA1BE71D76BD1000775236 /* BLAddServiceAddressViewController.m in Sources */,
 				BAB40C721D73E8C6008DD2D5 /* UIBarButtonItem+MJ.m in Sources */,
 				3ED0997C1D76BD5100DB8954 /* BLNeedInfoCell.m in Sources */,
@@ -988,6 +981,7 @@
 				BAB40C861D741B14008DD2D5 /* BLHotNeedButton.m in Sources */,
 				BA8A53DC1D751C5C00F770BE /* BLOrderButton.m in Sources */,
 				BA8A53D41D743F2900F770BE /* UIImage+XMGExtension.m in Sources */,
+				BAEA1BEE1D77B2B100775236 /* BLMessageViewController.m in Sources */,
 				BA8A53D71D75135100F770BE /* BLTableHearderView.m in Sources */,
 				BAB40C661D73E0CD008DD2D5 /* BLPlusButton.m in Sources */,
 				BAEA1BC11D76AF2B00775236 /* BLMyCollectViewController.m in Sources */,
