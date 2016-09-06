@@ -8,11 +8,17 @@
 
 #import "BLMyOrderChildTableViewCell.h"
 
+@interface BLMyOrderChildTableViewCell ()
+@property (weak, nonatomic) IBOutlet UIView *footView;
+@property (weak, nonatomic) IBOutlet UIView *fengexian;
+@end
+
 @implementation BLMyOrderChildTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    self.autoresizingMask = NO;
+    self.footView.backgroundColor = kBgColor;
+    self.fengexian.backgroundColor = kBgColor;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

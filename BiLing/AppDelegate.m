@@ -10,6 +10,9 @@
 #import "CYLTabBarControllerConfig.h"
 #import "BLPlusButton.h"
 #import "IQKeyboardManager.h"
+#import <UMSocial.h>
+#import <UMSocialWechatHandler.h>
+#import <UMSocialQQHandler.h>
 
 @interface AppDelegate ()
 
@@ -34,6 +37,11 @@
     manager.shouldResignOnTouchOutside = YES;
     manager.shouldToolbarUsesTextFieldTintColor = YES;
     manager.enableAutoToolbar = NO;
+    
+    [UMSocialData setAppKey:@"578d91a667e58ecf5d003e1c"];
+
+    [UMSocialWechatHandler setWXAppId:@"wxcaa0f3112468bd22" appSecret:@"9c6e43225dfc5411719b3ef5843760b6" url:@"https://itunes.apple.com/us/app/bi-lin-bilin/id1135383659?l=zh&ls=1&mt=8"];
+    [UMSocialQQHandler setQQWithAppId:@"1105428094" appKey:@"wCoCtC3OTq8JVKed" url:@"https://itunes.apple.com/us/app/bi-lin-bilin/id1135383659?l=zh&ls=1&mt=8"];
     
     return YES;
 }

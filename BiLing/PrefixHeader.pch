@@ -12,6 +12,7 @@
 #import "UIView+HBExtension.h"
 #import "BLBaseViewController.h"
 #import "BLConst.h"
+#import <SDWebImage/UIImageView+WebCache.h>
 
 #define kPaddingColor      BLColor(220,220,220)   //分割线
 #define kMainTextColor BLColor(40,40,40)

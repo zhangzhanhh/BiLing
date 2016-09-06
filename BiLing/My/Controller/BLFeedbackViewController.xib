@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BLFeedbackViewController">
+            <connections>
+                <outlet property="sendBtn" destination="3LY-eX-neZ" id="e7d-EI-AQJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您的宝贵建议将会使我们成长更快哦!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e8F-ef-BQT">
+                    <rect key="frame" x="15" y="84" width="229" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mpD-vw-PvT">
+                    <rect key="frame" x="15" y="106" width="570" height="150"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="MQQ-pR-NBL"/>
+                    </constraints>
+                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3LY-eX-neZ">
+                    <rect key="frame" x="40" y="276" width="520" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="hj1-ho-hMX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="提交" backgroundImage="形状-15-拷贝"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3LY-eX-neZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="5KO-CB-lRf"/>
+                <constraint firstItem="mpD-vw-PvT" firstAttribute="top" secondItem="e8F-ef-BQT" secondAttribute="bottom" constant="5" id="Pok-d2-exV"/>
+                <constraint firstItem="3LY-eX-neZ" firstAttribute="top" secondItem="mpD-vw-PvT" secondAttribute="bottom" constant="20" id="Xgc-Ck-WkP"/>
+                <constraint firstItem="e8F-ef-BQT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="cX2-nl-9ZA"/>
+                <constraint firstItem="mpD-vw-PvT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="hgq-np-uGJ"/>
+                <constraint firstAttribute="trailing" secondItem="mpD-vw-PvT" secondAttribute="trailing" constant="15" id="i2F-Gz-qed"/>
+                <constraint firstItem="3LY-eX-neZ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rax-4e-0b1"/>
+                <constraint firstAttribute="trailing" secondItem="3LY-eX-neZ" secondAttribute="trailing" constant="40" id="v2c-i2-V1D"/>
+                <constraint firstItem="e8F-ef-BQT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="vaC-0z-5VB"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="形状-15-拷贝" width="375" height="192"/>
+    </resources>
+</document>

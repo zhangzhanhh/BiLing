@@ -5,4 +5,5 @@ target ‘BiLing’ do
 	pod 'AFNetworking'
 	pod 'SDWebImage'
     pod 'IQKeyboardManager'
+    pod ‘UMengSocialCOM’
 end

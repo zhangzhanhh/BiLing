@@ -20,7 +20,7 @@ typedef enum : NSUInteger {
 @protocol BLTableHearderViewDelegate <NSObject>
 
 @optional
-- (void)tableHearderView:(BLTableHearderView *)tableHearderView didClickBtnWithType:(BLTableHearderViewBtnClickType)type;
+- (void)tableHearderView:(BLTableHearderView *)tableHearderView didClickBtn:(UIButton *)btn withType:(BLTableHearderViewBtnClickType)type;
 
 @end
 
